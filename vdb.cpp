@@ -1,47 +1,47 @@
-#include <iostream>
 #include <openvdb/openvdb.h>
-
-int main() {
-    //initialize the openvdb. this must be called at least
+#include <iostream>
+int main()
+{
+    // Initialize the OpenVDB library.  This must be called at least
     // once per program and may safely be called multiple times.
     openvdb::initialize();
-
-    //create an empty floating-point grid with background value 0.
+    
+    // Create an empty floating-point grid with background value 0.
     openvdb::FloatGrid::Ptr grid = openvdb::FloatGrid::create();
-    std::cout << "Testing random access: " << std::endl;
+    std::cout << "Testing random access:" << std::endl;    
 
-    //get an accessor for coordinate-based access to voxels
-    openvdb::Coord xyz(1000, -20000000, 30000000);
+    // Get an accessor for coordinate-based access to voxels.
+    openvdb::FloatGrid::Accessor accessor = grid->getAccessor();
 
-    //set the voxel value at (1000, -20000000, 30000000) to 1.
-    accessor.setValue(xyz, 1.0);
+    // Define a coordinate with large signed indices.
+    openvdb::Coord xyz(1000, -200000000, 30000000);    
 
-    //Reset the coordinate to those of a different voxel.
-    xyz.reset(1000, -20000000, 30000000);
+    // Set the voxel value at (1000, -200000000, 30000000) to 1.
+    accessor.setValue(xyz,1.0);
 
-    //verify that the voxel value at (1000, -20000000, 30000000) is
-    // the background value 0.
-    std::cout << "grid" << xyz << " = " << access.getValue(xyz) << std::endl;
+    // Verify that the voxel value at (1000, -200000000, 30000000) is 1.
+    std::cout << "grid" << xyz << "= " << accessor.getValue(xyz) << std::endl;
 
-    //set the voxel value at (1000, -20000000, 30000000) to 2
-    access.setValue(xyz, 2.0);
+    // Reset the coordinates to those of a different voxel.
+    xyz.reset(1000, -200000000, 30000000);    
 
-    //set the voxels at the two extremes of the available coordinate space.
-    //for 32-bit signed coordinates there are (-2147483648, -2147483648, -2147483648)
+    // Verify that the voxel value at (1000, 200000000, -30000000) is
+    // the background value, 0.
+    std::cout  << "grid" << xyz << "= " << accessor.getValue(xyz) << std::endl;
+
+    // Set the voxel value at (1000, 200000000, -30000000) to 2.
+    accessor.setValue(xyz, 2.0);
+
+    // Set the voxels at the two extremes of the available coordinate space.
+    // For 32-bit signed coordinates these are (-2147483648, -2147483648, -2147483648)
     // and (2147483647, 2147483647, 2147483647).
+    accessor.setValue(openvdb::Coord::min(), 3.0f);
+    accessor.setValue(openvdb::Coord::max(), 4.0f);
+    std::cout << "Testing sequential access: " << std::endl;
 
-    access.setValue(openvdb::Coord::min(), 3.0f);
-    access.setValue(openvdb::Coord::max(), 4.0f);
-
-    std::cout << "testing sequential access: " << std::endl;
-
-    //print all active ("on") voxels by means of an iterator.
+    // Print all active ("on") voxels by means of an iterator.
     for(openvdb::FloatGrid::ValueOnCIter iter = grid->cbeginValueOn(); iter; ++iter)
     {
         std::cout << "grid" << iter.getCoord() << "=" << *iter << std::endl;
     }
-
-
-
-    return 0;
 }

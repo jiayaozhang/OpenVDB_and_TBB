@@ -1,0 +1,120 @@
+Performing C++ SOURCE FILE Test CMAKE_HAVE_LIBC_PTHREAD failed with the following output:
+Change Dir: /home/navier/Codes/Learn_OpenVDB/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_2ef75/fast && /usr/bin/make  -f CMakeFiles/cmTC_2ef75.dir/build.make CMakeFiles/cmTC_2ef75.dir/build
+make[1]: Entering directory '/home/navier/Codes/Learn_OpenVDB/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_2ef75.dir/src.cxx.o
+/usr/bin/c++ -DCMAKE_HAVE_LIBC_PTHREAD   -o CMakeFiles/cmTC_2ef75.dir/src.cxx.o -c /home/navier/Codes/Learn_OpenVDB/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_2ef75
+/home/navier/.local/lib/python3.8/site-packages/cmake/data/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2ef75.dir/link.txt --verbose=1
+/usr/bin/c++ CMakeFiles/cmTC_2ef75.dir/src.cxx.o -o cmTC_2ef75 
+/usr/bin/ld: CMakeFiles/cmTC_2ef75.dir/src.cxx.o: in function `main':
+src.cxx:(.text+0x46): undefined reference to `pthread_create'
+/usr/bin/ld: src.cxx:(.text+0x52): undefined reference to `pthread_detach'
+/usr/bin/ld: src.cxx:(.text+0x5e): undefined reference to `pthread_cancel'
+/usr/bin/ld: src.cxx:(.text+0x6f): undefined reference to `pthread_join'
+collect2: error: ld returned 1 exit status
+make[1]: *** [CMakeFiles/cmTC_2ef75.dir/build.make:99: cmTC_2ef75] Error 1
+make[1]: Leaving directory '/home/navier/Codes/Learn_OpenVDB/build/CMakeFiles/CMakeTmp'
+make: *** [Makefile:127: cmTC_2ef75/fast] Error 2
+
+
+Source file was:
+#include <pthread.h>
+
+static void* test_func(void* data)
+{
+  return data;
+}
+
+int main(void)
+{
+  pthread_t thread;
+  pthread_create(&thread, NULL, test_func, NULL);
+  pthread_detach(thread);
+  pthread_cancel(thread);
+  pthread_join(thread, NULL);
+  pthread_atfork(NULL, NULL, NULL);
+  pthread_exit(NULL);
+
+  return 0;
+}
+
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: /home/navier/Codes/Learn_OpenVDB/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_5e9fc/fast && /usr/bin/make  -f CMakeFiles/cmTC_5e9fc.dir/build.make CMakeFiles/cmTC_5e9fc.dir/build
+make[1]: Entering directory '/home/navier/Codes/Learn_OpenVDB/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_5e9fc.dir/CheckFunctionExists.cxx.o
+/usr/bin/c++   -DCHECK_FUNCTION_EXISTS=pthread_create -o CMakeFiles/cmTC_5e9fc.dir/CheckFunctionExists.cxx.o -c /home/navier/Codes/Learn_OpenVDB/build/CMakeFiles/CheckLibraryExists/CheckFunctionExists.cxx
+Linking CXX executable cmTC_5e9fc
+/home/navier/.local/lib/python3.8/site-packages/cmake/data/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5e9fc.dir/link.txt --verbose=1
+/usr/bin/c++  -DCHECK_FUNCTION_EXISTS=pthread_create CMakeFiles/cmTC_5e9fc.dir/CheckFunctionExists.cxx.o -o cmTC_5e9fc  -lpthreads 
+/usr/bin/ld: cannot find -lpthreads
+collect2: error: ld returned 1 exit status
+make[1]: *** [CMakeFiles/cmTC_5e9fc.dir/build.make:99: cmTC_5e9fc] Error 1
+make[1]: Leaving directory '/home/navier/Codes/Learn_OpenVDB/build/CMakeFiles/CMakeTmp'
+make: *** [Makefile:127: cmTC_5e9fc/fast] Error 2
+
+
+
+Performing C++ SOURCE FILE Test CMAKE_HAVE_LIBC_PTHREAD failed with the following output:
+Change Dir: /home/navier/Codes/Learn_OpenVDB/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_8b19c/fast && /usr/bin/make  -f CMakeFiles/cmTC_8b19c.dir/build.make CMakeFiles/cmTC_8b19c.dir/build
+make[1]: Entering directory '/home/navier/Codes/Learn_OpenVDB/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_8b19c.dir/src.cxx.o
+/usr/bin/c++ -DCMAKE_HAVE_LIBC_PTHREAD   -o CMakeFiles/cmTC_8b19c.dir/src.cxx.o -c /home/navier/Codes/Learn_OpenVDB/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_8b19c
+/home/navier/.local/lib/python3.8/site-packages/cmake/data/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8b19c.dir/link.txt --verbose=1
+/usr/bin/c++ CMakeFiles/cmTC_8b19c.dir/src.cxx.o -o cmTC_8b19c 
+/usr/bin/ld: CMakeFiles/cmTC_8b19c.dir/src.cxx.o: in function `main':
+src.cxx:(.text+0x46): undefined reference to `pthread_create'
+/usr/bin/ld: src.cxx:(.text+0x52): undefined reference to `pthread_detach'
+/usr/bin/ld: src.cxx:(.text+0x5e): undefined reference to `pthread_cancel'
+/usr/bin/ld: src.cxx:(.text+0x6f): undefined reference to `pthread_join'
+collect2: error: ld returned 1 exit status
+make[1]: *** [CMakeFiles/cmTC_8b19c.dir/build.make:99: cmTC_8b19c] Error 1
+make[1]: Leaving directory '/home/navier/Codes/Learn_OpenVDB/build/CMakeFiles/CMakeTmp'
+make: *** [Makefile:127: cmTC_8b19c/fast] Error 2
+
+
+Source file was:
+#include <pthread.h>
+
+static void* test_func(void* data)
+{
+  return data;
+}
+
+int main(void)
+{
+  pthread_t thread;
+  pthread_create(&thread, NULL, test_func, NULL);
+  pthread_detach(thread);
+  pthread_cancel(thread);
+  pthread_join(thread, NULL);
+  pthread_atfork(NULL, NULL, NULL);
+  pthread_exit(NULL);
+
+  return 0;
+}
+
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: /home/navier/Codes/Learn_OpenVDB/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_cda0a/fast && /usr/bin/make  -f CMakeFiles/cmTC_cda0a.dir/build.make CMakeFiles/cmTC_cda0a.dir/build
+make[1]: Entering directory '/home/navier/Codes/Learn_OpenVDB/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_cda0a.dir/CheckFunctionExists.cxx.o
+/usr/bin/c++   -DCHECK_FUNCTION_EXISTS=pthread_create -o CMakeFiles/cmTC_cda0a.dir/CheckFunctionExists.cxx.o -c /home/navier/Codes/Learn_OpenVDB/build/CMakeFiles/CheckLibraryExists/CheckFunctionExists.cxx
+Linking CXX executable cmTC_cda0a
+/home/navier/.local/lib/python3.8/site-packages/cmake/data/bin/cmake -E cmake_link_script CMakeFiles/cmTC_cda0a.dir/link.txt --verbose=1
+/usr/bin/c++  -DCHECK_FUNCTION_EXISTS=pthread_create CMakeFiles/cmTC_cda0a.dir/CheckFunctionExists.cxx.o -o cmTC_cda0a  -lpthreads 
+/usr/bin/ld: cannot find -lpthreads
+collect2: error: ld returned 1 exit status
+make[1]: *** [CMakeFiles/cmTC_cda0a.dir/build.make:99: cmTC_cda0a] Error 1
+make[1]: Leaving directory '/home/navier/Codes/Learn_OpenVDB/build/CMakeFiles/CMakeTmp'
+make: *** [Makefile:127: cmTC_cda0a/fast] Error 2
+
+
+
