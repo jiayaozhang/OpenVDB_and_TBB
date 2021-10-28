@@ -129,29 +129,29 @@ learnvdb/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/learnvdb.dir/build.make CMakeFiles/learnvdb.dir/build
 .PHONY : learnvdb/fast
 
-grid.o: grid.cpp.o
-.PHONY : grid.o
+stream.o: stream.cpp.o
+.PHONY : stream.o
 
 # target to build an object file
-grid.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/learnvdb.dir/build.make CMakeFiles/learnvdb.dir/grid.cpp.o
-.PHONY : grid.cpp.o
+stream.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/learnvdb.dir/build.make CMakeFiles/learnvdb.dir/stream.cpp.o
+.PHONY : stream.cpp.o
 
-grid.i: grid.cpp.i
-.PHONY : grid.i
+stream.i: stream.cpp.i
+.PHONY : stream.i
 
 # target to preprocess a source file
-grid.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/learnvdb.dir/build.make CMakeFiles/learnvdb.dir/grid.cpp.i
-.PHONY : grid.cpp.i
+stream.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/learnvdb.dir/build.make CMakeFiles/learnvdb.dir/stream.cpp.i
+.PHONY : stream.cpp.i
 
-grid.s: grid.cpp.s
-.PHONY : grid.s
+stream.s: stream.cpp.s
+.PHONY : stream.s
 
 # target to generate assembly for a file
-grid.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/learnvdb.dir/build.make CMakeFiles/learnvdb.dir/grid.cpp.s
-.PHONY : grid.cpp.s
+stream.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/learnvdb.dir/build.make CMakeFiles/learnvdb.dir/stream.cpp.s
+.PHONY : stream.cpp.s
 
 # Help Target
 help:
@@ -162,9 +162,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... learnvdb"
-	@echo "... grid.o"
-	@echo "... grid.i"
-	@echo "... grid.s"
+	@echo "... stream.o"
+	@echo "... stream.i"
+	@echo "... stream.s"
 .PHONY : help
 
 
