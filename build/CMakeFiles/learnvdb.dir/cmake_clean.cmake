@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/learnvdb.dir/attributes.cpp.o"
-  "CMakeFiles/learnvdb.dir/attributes.cpp.o.d"
+  "CMakeFiles/learnvdb.dir/random.cpp.o"
+  "CMakeFiles/learnvdb.dir/random.cpp.o.d"
   "learnvdb"
   "learnvdb.pdb"
 )

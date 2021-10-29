@@ -129,29 +129,29 @@ learnvdb/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/learnvdb.dir/build.make CMakeFiles/learnvdb.dir/build
 .PHONY : learnvdb/fast
 
-attributes.o: attributes.cpp.o
-.PHONY : attributes.o
+random.o: random.cpp.o
+.PHONY : random.o
 
 # target to build an object file
-attributes.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/learnvdb.dir/build.make CMakeFiles/learnvdb.dir/attributes.cpp.o
-.PHONY : attributes.cpp.o
+random.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/learnvdb.dir/build.make CMakeFiles/learnvdb.dir/random.cpp.o
+.PHONY : random.cpp.o
 
-attributes.i: attributes.cpp.i
-.PHONY : attributes.i
+random.i: random.cpp.i
+.PHONY : random.i
 
 # target to preprocess a source file
-attributes.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/learnvdb.dir/build.make CMakeFiles/learnvdb.dir/attributes.cpp.i
-.PHONY : attributes.cpp.i
+random.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/learnvdb.dir/build.make CMakeFiles/learnvdb.dir/random.cpp.i
+.PHONY : random.cpp.i
 
-attributes.s: attributes.cpp.s
-.PHONY : attributes.s
+random.s: random.cpp.s
+.PHONY : random.s
 
 # target to generate assembly for a file
-attributes.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/learnvdb.dir/build.make CMakeFiles/learnvdb.dir/attributes.cpp.s
-.PHONY : attributes.cpp.s
+random.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/learnvdb.dir/build.make CMakeFiles/learnvdb.dir/random.cpp.s
+.PHONY : random.cpp.s
 
 # Help Target
 help:
@@ -162,9 +162,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... learnvdb"
-	@echo "... attributes.o"
-	@echo "... attributes.i"
-	@echo "... attributes.s"
+	@echo "... random.o"
+	@echo "... random.i"
+	@echo "... random.s"
 .PHONY : help
 
 

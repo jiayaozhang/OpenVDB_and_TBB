@@ -53,17 +53,17 @@ int main()
     // Note that this attribute type is not registered by default so needs to be
     // explicitly registered.
     using Codec = openvdb::points::FixedPointCodec</*1-byte=*/false,
-            openvdb::points::UnitRange>;
+    openvdb::points::UnitRange>;
     openvdb::points::TypedAttributeArray<float, Codec>::registerType();
     openvdb::NamePair radiusAttribute =
-        openvdb::points::TypedAttributeArray<float, Codec>::attributeType();
+    openvdb::points::TypedAttributeArray<float, Codec>::attributeType();
     openvdb::points::appendAttribute(grid->tree(), "pscale", radiusAttribute);
     // Create a wrapper around the radius vector.
     openvdb::points::PointAttributeVector<float> radiusWrapper(radius);
     // Populate the "pscale" attribute on the points
     openvdb::points::populateAttribute<openvdb::points::PointDataTree,
-        openvdb::tools::PointIndexTree, openvdb::points::PointAttributeVector<float>>(
-            grid->tree(), pointIndexGrid->tree(), "pscale", radiusWrapper);
+    openvdb::tools::PointIndexTree, openvdb::points::PointAttributeVector<float>>(
+    grid->tree(), pointIndexGrid->tree(), "pscale", radiusWrapper);
     // Set the name of the grid
     grid->setName("Points");
     // Iterate over all the leaf nodes in the grid.
