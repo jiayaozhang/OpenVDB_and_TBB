@@ -129,29 +129,29 @@ learnvdb/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/learnvdb.dir/build.make CMakeFiles/learnvdb.dir/build
 .PHONY : learnvdb/fast
 
-stream.o: stream.cpp.o
-.PHONY : stream.o
+helloworld.o: helloworld.cpp.o
+.PHONY : helloworld.o
 
 # target to build an object file
-stream.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/learnvdb.dir/build.make CMakeFiles/learnvdb.dir/stream.cpp.o
-.PHONY : stream.cpp.o
+helloworld.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/learnvdb.dir/build.make CMakeFiles/learnvdb.dir/helloworld.cpp.o
+.PHONY : helloworld.cpp.o
 
-stream.i: stream.cpp.i
-.PHONY : stream.i
+helloworld.i: helloworld.cpp.i
+.PHONY : helloworld.i
 
 # target to preprocess a source file
-stream.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/learnvdb.dir/build.make CMakeFiles/learnvdb.dir/stream.cpp.i
-.PHONY : stream.cpp.i
+helloworld.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/learnvdb.dir/build.make CMakeFiles/learnvdb.dir/helloworld.cpp.i
+.PHONY : helloworld.cpp.i
 
-stream.s: stream.cpp.s
-.PHONY : stream.s
+helloworld.s: helloworld.cpp.s
+.PHONY : helloworld.s
 
 # target to generate assembly for a file
-stream.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/learnvdb.dir/build.make CMakeFiles/learnvdb.dir/stream.cpp.s
-.PHONY : stream.cpp.s
+helloworld.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/learnvdb.dir/build.make CMakeFiles/learnvdb.dir/helloworld.cpp.s
+.PHONY : helloworld.cpp.s
 
 # Help Target
 help:
@@ -162,9 +162,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... learnvdb"
-	@echo "... stream.o"
-	@echo "... stream.i"
-	@echo "... stream.s"
+	@echo "... helloworld.o"
+	@echo "... helloworld.i"
+	@echo "... helloworld.s"
 .PHONY : help
 
 

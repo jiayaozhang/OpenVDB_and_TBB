@@ -69,28 +69,28 @@ include CMakeFiles/learnvdb.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/learnvdb.dir/flags.make
 
-CMakeFiles/learnvdb.dir/stream.cpp.o: CMakeFiles/learnvdb.dir/flags.make
-CMakeFiles/learnvdb.dir/stream.cpp.o: ../stream.cpp
-CMakeFiles/learnvdb.dir/stream.cpp.o: CMakeFiles/learnvdb.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/navier/Codes/Learn_OpenVDB/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/learnvdb.dir/stream.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/learnvdb.dir/stream.cpp.o -MF CMakeFiles/learnvdb.dir/stream.cpp.o.d -o CMakeFiles/learnvdb.dir/stream.cpp.o -c /home/navier/Codes/Learn_OpenVDB/stream.cpp
+CMakeFiles/learnvdb.dir/helloworld.cpp.o: CMakeFiles/learnvdb.dir/flags.make
+CMakeFiles/learnvdb.dir/helloworld.cpp.o: ../helloworld.cpp
+CMakeFiles/learnvdb.dir/helloworld.cpp.o: CMakeFiles/learnvdb.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/navier/Codes/Learn_OpenVDB/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/learnvdb.dir/helloworld.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/learnvdb.dir/helloworld.cpp.o -MF CMakeFiles/learnvdb.dir/helloworld.cpp.o.d -o CMakeFiles/learnvdb.dir/helloworld.cpp.o -c /home/navier/Codes/Learn_OpenVDB/helloworld.cpp
 
-CMakeFiles/learnvdb.dir/stream.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/learnvdb.dir/stream.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/navier/Codes/Learn_OpenVDB/stream.cpp > CMakeFiles/learnvdb.dir/stream.cpp.i
+CMakeFiles/learnvdb.dir/helloworld.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/learnvdb.dir/helloworld.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/navier/Codes/Learn_OpenVDB/helloworld.cpp > CMakeFiles/learnvdb.dir/helloworld.cpp.i
 
-CMakeFiles/learnvdb.dir/stream.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/learnvdb.dir/stream.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/navier/Codes/Learn_OpenVDB/stream.cpp -o CMakeFiles/learnvdb.dir/stream.cpp.s
+CMakeFiles/learnvdb.dir/helloworld.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/learnvdb.dir/helloworld.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/navier/Codes/Learn_OpenVDB/helloworld.cpp -o CMakeFiles/learnvdb.dir/helloworld.cpp.s
 
 # Object files for target learnvdb
 learnvdb_OBJECTS = \
-"CMakeFiles/learnvdb.dir/stream.cpp.o"
+"CMakeFiles/learnvdb.dir/helloworld.cpp.o"
 
 # External object files for target learnvdb
 learnvdb_EXTERNAL_OBJECTS =
 
-learnvdb: CMakeFiles/learnvdb.dir/stream.cpp.o
+learnvdb: CMakeFiles/learnvdb.dir/helloworld.cpp.o
 learnvdb: CMakeFiles/learnvdb.dir/build.make
 learnvdb: /usr/local/lib/libopenvdb.so
 learnvdb: /usr/lib/x86_64-linux-gnu/libboost_iostreams.so.1.71.0
