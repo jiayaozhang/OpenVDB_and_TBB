@@ -129,29 +129,29 @@ learnvdb/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/learnvdb.dir/build.make CMakeFiles/learnvdb.dir/build
 .PHONY : learnvdb/fast
 
-helloworld.o: helloworld.cpp.o
-.PHONY : helloworld.o
+attributes.o: attributes.cpp.o
+.PHONY : attributes.o
 
 # target to build an object file
-helloworld.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/learnvdb.dir/build.make CMakeFiles/learnvdb.dir/helloworld.cpp.o
-.PHONY : helloworld.cpp.o
+attributes.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/learnvdb.dir/build.make CMakeFiles/learnvdb.dir/attributes.cpp.o
+.PHONY : attributes.cpp.o
 
-helloworld.i: helloworld.cpp.i
-.PHONY : helloworld.i
+attributes.i: attributes.cpp.i
+.PHONY : attributes.i
 
 # target to preprocess a source file
-helloworld.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/learnvdb.dir/build.make CMakeFiles/learnvdb.dir/helloworld.cpp.i
-.PHONY : helloworld.cpp.i
+attributes.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/learnvdb.dir/build.make CMakeFiles/learnvdb.dir/attributes.cpp.i
+.PHONY : attributes.cpp.i
 
-helloworld.s: helloworld.cpp.s
-.PHONY : helloworld.s
+attributes.s: attributes.cpp.s
+.PHONY : attributes.s
 
 # target to generate assembly for a file
-helloworld.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/learnvdb.dir/build.make CMakeFiles/learnvdb.dir/helloworld.cpp.s
-.PHONY : helloworld.cpp.s
+attributes.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/learnvdb.dir/build.make CMakeFiles/learnvdb.dir/attributes.cpp.s
+.PHONY : attributes.cpp.s
 
 # Help Target
 help:
@@ -162,9 +162,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... learnvdb"
-	@echo "... helloworld.o"
-	@echo "... helloworld.i"
-	@echo "... helloworld.s"
+	@echo "... attributes.o"
+	@echo "... attributes.i"
+	@echo "... attributes.s"
 .PHONY : help
 
 
