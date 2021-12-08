@@ -1,0 +1,168 @@
+{
+	"artifacts" : 
+	[
+		{
+			"path" : "09_06_Generic_combination"
+		}
+	],
+	"backtrace" : 2,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"_add_executable",
+			"add_executable",
+			"target_link_libraries"
+		],
+		"files" : 
+		[
+			"/home/navier/Develop/vcpkg/scripts/buildsystems/vcpkg.cmake",
+			"CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 1
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 116,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 540,
+				"parent" : 1
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 117,
+				"parent" : 0
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-g"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 3,
+					"define" : "OPENVDB_ABI_VERSION_NUMBER=8"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 3,
+					"isSystem" : true,
+					"path" : "/home/navier/Develop/vcpkg/installed/x64-linux/include"
+				}
+			],
+			"language" : "CXX",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		}
+	],
+	"id" : "09_06_Generic_combination::@6890427a1f51a3e7e1df",
+	"link" : 
+	{
+		"commandFragments" : 
+		[
+			{
+				"fragment" : "-g",
+				"role" : "flags"
+			},
+			{
+				"fragment" : "-rdynamic",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "/home/navier/Develop/vcpkg/installed/x64-linux/debug/lib/libopenvdb.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "/home/navier/Develop/vcpkg/installed/x64-linux/debug/lib/libblosc.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "/home/navier/Develop/vcpkg/installed/x64-linux/lib/libtbb.a",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/home/navier/Develop/vcpkg/installed/x64-linux/debug/lib/libboost_iostreams.a",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/home/navier/Develop/vcpkg/installed/x64-linux/debug/lib/libboost_regex.a",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/home/navier/Develop/vcpkg/installed/x64-linux/debug/lib/libboost_system.a",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "-lpthread",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/home/navier/Develop/vcpkg/installed/x64-linux/debug/lib/liblz4d.a",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/home/navier/Develop/vcpkg/installed/x64-linux/debug/lib/libsnappyd.a",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/home/navier/Develop/vcpkg/installed/x64-linux/debug/lib/libz.a",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/home/navier/Develop/vcpkg/installed/x64-linux/debug/lib/libzstdd.a",
+				"role" : "libraries"
+			}
+		],
+		"language" : "CXX"
+	},
+	"name" : "09_06_Generic_combination",
+	"nameOnDisk" : "09_06_Generic_combination",
+	"paths" : 
+	{
+		"build" : ".",
+		"source" : "."
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "src/09_Combining_grids/09_06_Generic_combination.cpp",
+			"sourceGroupIndex" : 0
+		}
+	],
+	"type" : "EXECUTABLE"
+}

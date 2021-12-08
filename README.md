@@ -1,5 +1,3 @@
-# Learn_OpenVDB
+# OpenVDB_Cookbook
 
-1.  Firstly,  in the main folder directory  cmake -Bbuild
-2.  Secondly, in the build folder directoty make learnvdb -j
-3. 
+[OpenVDB_Cookbook](https://www.openvdb.org/documentation/doxygen/codeExamples.html#sPopulatingGrids)

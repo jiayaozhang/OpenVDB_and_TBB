@@ -1,0 +1,366 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-Debug-f5ebdc15457944623624.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18,
+						19,
+						20,
+						21,
+						22,
+						23,
+						24,
+						25,
+						26,
+						27,
+						28,
+						29,
+						30,
+						31,
+						32,
+						33,
+						34
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "OpenVDB_Cookbook",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18,
+						19,
+						20,
+						21,
+						22,
+						23,
+						24,
+						25,
+						26,
+						27,
+						28,
+						29,
+						30,
+						31,
+						32,
+						33,
+						34
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "01_01_Hello_World_for_OpenVDB::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-01_01_Hello_World_for_OpenVDB-Debug-b7c0dc409a5594b9e97e.json",
+					"name" : "01_01_Hello_World_for_OpenVDB",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "02_01_Creating_and_writing_a_grid::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-02_01_Creating_and_writing_a_grid-Debug-7eedc19c47e90a1d6ef4.json",
+					"name" : "02_01_Creating_and_writing_a_grid",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "02_02_Populating_a_grid_with_values::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-02_02_Populating_a_grid_with_values-Debug-c0321f7b627dbb70018b.json",
+					"name" : "02_02_Populating_a_grid_with_values",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "03_01_Reading_and_modifying_a_grid::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-03_01_Reading_and_modifying_a_grid-Debug-93129437ed529c5ea05b.json",
+					"name" : "03_01_Reading_and_modifying_a_grid",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "04_01_Stream_I_O::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-04_01_Stream_I_O-Debug-325f8d347d92167cd8b8.json",
+					"name" : "04_01_Stream_I_O",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "05_01_Adding_metadata::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-05_01_Adding_metadata-Debug-cdcb273d8857b26ef8c1.json",
+					"name" : "05_01_Adding_metadata",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "05_02_Retrieving_metadata::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-05_02_Retrieving_metadata-Debug-bba1b91035ac94b4d578.json",
+					"name" : "05_02_Retrieving_metadata",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "05_03_Removing_metadata::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-05_03_Removing_metadata-Debug-b22339a6b0b7dde69018.json",
+					"name" : "05_03_Removing_metadata",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "06_01_Node_Iterator::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-06_01_Node_Iterator-Debug-3a12b9e0db7376368f23.json",
+					"name" : "06_01_Node_Iterator",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "06_02_Leaf_Node_Iterator::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-06_02_Leaf_Node_Iterator-Debug-8c991eaca9afd6ce8fed.json",
+					"name" : "06_02_Leaf_Node_Iterator",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "06_03_Value_Iterator::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-06_03_Value_Iterator-Debug-afcff4bf26901133e270.json",
+					"name" : "06_03_Value_Iterator",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "06_04_Iterator_Range::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-06_04_Iterator_Range-Debug-25ad8c971f205d5a1ac3.json",
+					"name" : "06_04_Iterator_Range",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "07_01_Index-space_samplers::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-07_01_Index-space_samplers-Debug-61ca87c8f41a48ce3294.json",
+					"name" : "07_01_Index-space_samplers",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "07_02_Grid_Sampler::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-07_02_Grid_Sampler-Debug-04574d47c7ea265331df.json",
+					"name" : "07_02_Grid_Sampler",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "07_03_Dual_Grid_Sampler::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-07_03_Dual_Grid_Sampler-Debug-1b97408b9d20fffa0dfe.json",
+					"name" : "07_03_Dual_Grid_Sampler",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "08_01_Geometric_transformation::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-08_01_Geometric_transformation-Debug-ddec591df7dc0929ead4.json",
+					"name" : "08_01_Geometric_transformation",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "08_02_Value_transformation::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-08_02_Value_transformation-Debug-db2310e4f564260823f6.json",
+					"name" : "08_02_Value_transformation",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "08_03_Value_transformation::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-08_03_Value_transformation-Debug-139792ce46e11fe3cacb.json",
+					"name" : "08_03_Value_transformation",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "08_04_Value_transformation::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-08_04_Value_transformation-Debug-97a51e3ca811318120b3.json",
+					"name" : "08_04_Value_transformation",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "09_01_Level_set_CSG_operations::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-09_01_Level_set_CSG_operations-Debug-eab76c2de47b6b4c0260.json",
+					"name" : "09_01_Level_set_CSG_operations",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "09_02_Compositing_operations::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-09_02_Compositing_operations-Debug-7062f0b34d5919c7ca6f.json",
+					"name" : "09_02_Compositing_operations",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "09_03_Generic_combination::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-09_03_Generic_combination-Debug-23fe56737ade4e40a6e7.json",
+					"name" : "09_03_Generic_combination",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "09_04_Generic_combination::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-09_04_Generic_combination-Debug-6c1146888032f9d99b9e.json",
+					"name" : "09_04_Generic_combination",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "09_05_Generic_combination::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-09_05_Generic_combination-Debug-480db7bb49218f5a505a.json",
+					"name" : "09_05_Generic_combination",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "09_06_Generic_combination::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-09_06_Generic_combination-Debug-2b2db26ad62ac7dd165e.json",
+					"name" : "09_06_Generic_combination",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "11_01_Hello_World_for_OpenVDB_Points::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-11_01_Hello_World_for_OpenVDB_Points-Debug-72e8bac73cd37ca1d809.json",
+					"name" : "11_01_Hello_World_for_OpenVDB_Points",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "12_01_Converting_Point_Attributes::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-12_01_Converting_Point_Attributes-Debug-a32d906c312c90b88b29.json",
+					"name" : "12_01_Converting_Point_Attributes",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "13_01_Random_Point_Generation::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-13_01_Random_Point_Generation-Debug-db43ae563041ce5feffe.json",
+					"name" : "13_01_Random_Point_Generation",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "14_01_Point_Iteration::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-14_01_Point_Iteration-Debug-8c3a9e33a0c59096204b.json",
+					"name" : "14_01_Point_Iteration",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "14_02_Point_Iteration::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-14_02_Point_Iteration-Debug-be13908d0c1c85c17744.json",
+					"name" : "14_02_Point_Iteration",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "14_03_Point_Iteration::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-14_03_Point_Iteration-Debug-7982276c170fed898a2e.json",
+					"name" : "14_03_Point_Iteration",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "14_05_Point_Filtering_using_Groups::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-14_05_Point_Filtering_using_Groups-Debug-b7e09ce885fa0c9dbe58.json",
+					"name" : "14_05_Point_Filtering_using_Groups",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "15_01_Constant_Stride_Attributes::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-15_01_Constant_Stride_Attributes-Debug-df56dcacb75f783f7c1a.json",
+					"name" : "15_01_Constant_Stride_Attributes",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "16_01_Advecting_Points::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-16_01_Advecting_Points-Debug-6a9c659c1e3efa17ca01.json",
+					"name" : "16_01_Advecting_Points",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "16_02_Moving_Points_with_a_Custom_Deformer::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-16_02_Moving_Points_with_a_Custom_Deformer-Debug-69c0fe1b70cd858ac2e7.json",
+					"name" : "16_02_Moving_Points_with_a_Custom_Deformer",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/navier/Documents/OpenVDB_Cookbook/build",
+		"source" : "/home/navier/Documents/OpenVDB_Cookbook"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

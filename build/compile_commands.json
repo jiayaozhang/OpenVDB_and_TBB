@@ -1,0 +1,177 @@
+[
+{
+  "directory": "/home/navier/Documents/OpenVDB_Cookbook/build",
+  "command": "/bin/x86_64-linux-gnu-g++-10 -DOPENVDB_ABI_VERSION_NUMBER=8 -isystem /home/navier/Develop/vcpkg/installed/x64-linux/include -g -o CMakeFiles/14_01_Point_Iteration.dir/src/14_Point_Iteration_Groups_and_Filtering/14_01_Point_Iteration.cpp.o -c /home/navier/Documents/OpenVDB_Cookbook/src/14_Point_Iteration_Groups_and_Filtering/14_01_Point_Iteration.cpp",
+  "file": "/home/navier/Documents/OpenVDB_Cookbook/src/14_Point_Iteration_Groups_and_Filtering/14_01_Point_Iteration.cpp"
+},
+{
+  "directory": "/home/navier/Documents/OpenVDB_Cookbook/build",
+  "command": "/bin/x86_64-linux-gnu-g++-10 -DOPENVDB_ABI_VERSION_NUMBER=8 -isystem /home/navier/Develop/vcpkg/installed/x64-linux/include -g -o CMakeFiles/06_03_Value_Iterator.dir/src/06_Iteration/06_03_Value_Iterator.cpp.o -c /home/navier/Documents/OpenVDB_Cookbook/src/06_Iteration/06_03_Value_Iterator.cpp",
+  "file": "/home/navier/Documents/OpenVDB_Cookbook/src/06_Iteration/06_03_Value_Iterator.cpp"
+},
+{
+  "directory": "/home/navier/Documents/OpenVDB_Cookbook/build",
+  "command": "/bin/x86_64-linux-gnu-g++-10 -DOPENVDB_ABI_VERSION_NUMBER=8 -isystem /home/navier/Develop/vcpkg/installed/x64-linux/include -g -o CMakeFiles/06_04_Iterator_Range.dir/src/06_Iteration/06_04_Iterator_Range.cpp.o -c /home/navier/Documents/OpenVDB_Cookbook/src/06_Iteration/06_04_Iterator_Range.cpp",
+  "file": "/home/navier/Documents/OpenVDB_Cookbook/src/06_Iteration/06_04_Iterator_Range.cpp"
+},
+{
+  "directory": "/home/navier/Documents/OpenVDB_Cookbook/build",
+  "command": "/bin/x86_64-linux-gnu-g++-10 -DOPENVDB_ABI_VERSION_NUMBER=8 -isystem /home/navier/Develop/vcpkg/installed/x64-linux/include -g -o CMakeFiles/07_01_Index-space_samplers.dir/src/07_Interpolation_of_grid_values/07_01_Index-space_samplers.cpp.o -c /home/navier/Documents/OpenVDB_Cookbook/src/07_Interpolation_of_grid_values/07_01_Index-space_samplers.cpp",
+  "file": "/home/navier/Documents/OpenVDB_Cookbook/src/07_Interpolation_of_grid_values/07_01_Index-space_samplers.cpp"
+},
+{
+  "directory": "/home/navier/Documents/OpenVDB_Cookbook/build",
+  "command": "/bin/x86_64-linux-gnu-g++-10 -DOPENVDB_ABI_VERSION_NUMBER=8 -isystem /home/navier/Develop/vcpkg/installed/x64-linux/include -g -o CMakeFiles/06_02_Leaf_Node_Iterator.dir/src/06_Iteration/06_02_Leaf_Node_Iterator.cpp.o -c /home/navier/Documents/OpenVDB_Cookbook/src/06_Iteration/06_02_Leaf_Node_Iterator.cpp",
+  "file": "/home/navier/Documents/OpenVDB_Cookbook/src/06_Iteration/06_02_Leaf_Node_Iterator.cpp"
+},
+{
+  "directory": "/home/navier/Documents/OpenVDB_Cookbook/build",
+  "command": "/bin/x86_64-linux-gnu-g++-10 -DOPENVDB_ABI_VERSION_NUMBER=8 -isystem /home/navier/Develop/vcpkg/installed/x64-linux/include -g -o CMakeFiles/05_02_Retrieving_metadata.dir/src/05_Handling_metadata/05_02_Retrieving_metadata.cpp.o -c /home/navier/Documents/OpenVDB_Cookbook/src/05_Handling_metadata/05_02_Retrieving_metadata.cpp",
+  "file": "/home/navier/Documents/OpenVDB_Cookbook/src/05_Handling_metadata/05_02_Retrieving_metadata.cpp"
+},
+{
+  "directory": "/home/navier/Documents/OpenVDB_Cookbook/build",
+  "command": "/bin/x86_64-linux-gnu-g++-10 -DOPENVDB_ABI_VERSION_NUMBER=8 -isystem /home/navier/Develop/vcpkg/installed/x64-linux/include -g -o CMakeFiles/07_03_Dual_Grid_Sampler.dir/src/07_Interpolation_of_grid_values/07_03_Dual_Grid_Sampler.cpp.o -c /home/navier/Documents/OpenVDB_Cookbook/src/07_Interpolation_of_grid_values/07_03_Dual_Grid_Sampler.cpp",
+  "file": "/home/navier/Documents/OpenVDB_Cookbook/src/07_Interpolation_of_grid_values/07_03_Dual_Grid_Sampler.cpp"
+},
+{
+  "directory": "/home/navier/Documents/OpenVDB_Cookbook/build",
+  "command": "/bin/x86_64-linux-gnu-g++-10 -DOPENVDB_ABI_VERSION_NUMBER=8 -isystem /home/navier/Develop/vcpkg/installed/x64-linux/include -g -o CMakeFiles/08_01_Geometric_transformation.dir/src/08_Transforming_grids/08_01_Geometric_transformation.cpp.o -c /home/navier/Documents/OpenVDB_Cookbook/src/08_Transforming_grids/08_01_Geometric_transformation.cpp",
+  "file": "/home/navier/Documents/OpenVDB_Cookbook/src/08_Transforming_grids/08_01_Geometric_transformation.cpp"
+},
+{
+  "directory": "/home/navier/Documents/OpenVDB_Cookbook/build",
+  "command": "/bin/x86_64-linux-gnu-g++-10 -DOPENVDB_ABI_VERSION_NUMBER=8 -isystem /home/navier/Develop/vcpkg/installed/x64-linux/include -g -o CMakeFiles/05_03_Removing_metadata.dir/src/05_Handling_metadata/05_03_Removing_metadata.cpp.o -c /home/navier/Documents/OpenVDB_Cookbook/src/05_Handling_metadata/05_03_Removing_metadata.cpp",
+  "file": "/home/navier/Documents/OpenVDB_Cookbook/src/05_Handling_metadata/05_03_Removing_metadata.cpp"
+},
+{
+  "directory": "/home/navier/Documents/OpenVDB_Cookbook/build",
+  "command": "/bin/x86_64-linux-gnu-g++-10 -DOPENVDB_ABI_VERSION_NUMBER=8 -isystem /home/navier/Develop/vcpkg/installed/x64-linux/include -g -o CMakeFiles/02_01_Creating_and_writing_a_grid.dir/src/02_Creating_and_writing_a_grid/02_01_Creating_and_writing_a_grid.cpp.o -c /home/navier/Documents/OpenVDB_Cookbook/src/02_Creating_and_writing_a_grid/02_01_Creating_and_writing_a_grid.cpp",
+  "file": "/home/navier/Documents/OpenVDB_Cookbook/src/02_Creating_and_writing_a_grid/02_01_Creating_and_writing_a_grid.cpp"
+},
+{
+  "directory": "/home/navier/Documents/OpenVDB_Cookbook/build",
+  "command": "/bin/x86_64-linux-gnu-g++-10 -DOPENVDB_ABI_VERSION_NUMBER=8 -isystem /home/navier/Develop/vcpkg/installed/x64-linux/include -g -o CMakeFiles/06_01_Node_Iterator.dir/src/06_Iteration/06_01_Node_Iterator.cpp.o -c /home/navier/Documents/OpenVDB_Cookbook/src/06_Iteration/06_01_Node_Iterator.cpp",
+  "file": "/home/navier/Documents/OpenVDB_Cookbook/src/06_Iteration/06_01_Node_Iterator.cpp"
+},
+{
+  "directory": "/home/navier/Documents/OpenVDB_Cookbook/build",
+  "command": "/bin/x86_64-linux-gnu-g++-10 -DOPENVDB_ABI_VERSION_NUMBER=8 -isystem /home/navier/Develop/vcpkg/installed/x64-linux/include -g -o CMakeFiles/03_01_Reading_and_modifying_a_grid.dir/src/03_Reading_and_modifying_a_grid/03_01_Reading_and_modifying_a_grid.cpp.o -c /home/navier/Documents/OpenVDB_Cookbook/src/03_Reading_and_modifying_a_grid/03_01_Reading_and_modifying_a_grid.cpp",
+  "file": "/home/navier/Documents/OpenVDB_Cookbook/src/03_Reading_and_modifying_a_grid/03_01_Reading_and_modifying_a_grid.cpp"
+},
+{
+  "directory": "/home/navier/Documents/OpenVDB_Cookbook/build",
+  "command": "/bin/x86_64-linux-gnu-g++-10 -DOPENVDB_ABI_VERSION_NUMBER=8 -isystem /home/navier/Develop/vcpkg/installed/x64-linux/include -g -o CMakeFiles/01_01_Hello_World_for_OpenVDB.dir/src/01_Hello_World_for_OpenVDB/01_01_Hello_World_for_OpenVDB.cpp.o -c /home/navier/Documents/OpenVDB_Cookbook/src/01_Hello_World_for_OpenVDB/01_01_Hello_World_for_OpenVDB.cpp",
+  "file": "/home/navier/Documents/OpenVDB_Cookbook/src/01_Hello_World_for_OpenVDB/01_01_Hello_World_for_OpenVDB.cpp"
+},
+{
+  "directory": "/home/navier/Documents/OpenVDB_Cookbook/build",
+  "command": "/bin/x86_64-linux-gnu-g++-10 -DOPENVDB_ABI_VERSION_NUMBER=8 -isystem /home/navier/Develop/vcpkg/installed/x64-linux/include -g -o CMakeFiles/02_02_Populating_a_grid_with_values.dir/src/02_Creating_and_writing_a_grid/02_02_Populating_a_grid_with_values.cpp.o -c /home/navier/Documents/OpenVDB_Cookbook/src/02_Creating_and_writing_a_grid/02_02_Populating_a_grid_with_values.cpp",
+  "file": "/home/navier/Documents/OpenVDB_Cookbook/src/02_Creating_and_writing_a_grid/02_02_Populating_a_grid_with_values.cpp"
+},
+{
+  "directory": "/home/navier/Documents/OpenVDB_Cookbook/build",
+  "command": "/bin/x86_64-linux-gnu-g++-10 -DOPENVDB_ABI_VERSION_NUMBER=8 -isystem /home/navier/Develop/vcpkg/installed/x64-linux/include -g -o CMakeFiles/16_01_Advecting_Points.dir/src/16_Moving_Points_in_Space/16_01_Advecting_Points.cpp.o -c /home/navier/Documents/OpenVDB_Cookbook/src/16_Moving_Points_in_Space/16_01_Advecting_Points.cpp",
+  "file": "/home/navier/Documents/OpenVDB_Cookbook/src/16_Moving_Points_in_Space/16_01_Advecting_Points.cpp"
+},
+{
+  "directory": "/home/navier/Documents/OpenVDB_Cookbook/build",
+  "command": "/bin/x86_64-linux-gnu-g++-10 -DOPENVDB_ABI_VERSION_NUMBER=8 -isystem /home/navier/Develop/vcpkg/installed/x64-linux/include -g -o CMakeFiles/04_01_Stream_I_O.dir/src/04_Stream_I_O/04_01_Stream_I_O.cpp.o -c /home/navier/Documents/OpenVDB_Cookbook/src/04_Stream_I_O/04_01_Stream_I_O.cpp",
+  "file": "/home/navier/Documents/OpenVDB_Cookbook/src/04_Stream_I_O/04_01_Stream_I_O.cpp"
+},
+{
+  "directory": "/home/navier/Documents/OpenVDB_Cookbook/build",
+  "command": "/bin/x86_64-linux-gnu-g++-10 -DOPENVDB_ABI_VERSION_NUMBER=8 -isystem /home/navier/Develop/vcpkg/installed/x64-linux/include -g -o CMakeFiles/08_02_Value_transformation.dir/src/08_Transforming_grids/08_02_Value_transformation.cpp.o -c /home/navier/Documents/OpenVDB_Cookbook/src/08_Transforming_grids/08_02_Value_transformation.cpp",
+  "file": "/home/navier/Documents/OpenVDB_Cookbook/src/08_Transforming_grids/08_02_Value_transformation.cpp"
+},
+{
+  "directory": "/home/navier/Documents/OpenVDB_Cookbook/build",
+  "command": "/bin/x86_64-linux-gnu-g++-10 -DOPENVDB_ABI_VERSION_NUMBER=8 -isystem /home/navier/Develop/vcpkg/installed/x64-linux/include -g -o CMakeFiles/07_02_Grid_Sampler.dir/src/07_Interpolation_of_grid_values/07_02_Grid_Sampler.cpp.o -c /home/navier/Documents/OpenVDB_Cookbook/src/07_Interpolation_of_grid_values/07_02_Grid_Sampler.cpp",
+  "file": "/home/navier/Documents/OpenVDB_Cookbook/src/07_Interpolation_of_grid_values/07_02_Grid_Sampler.cpp"
+},
+{
+  "directory": "/home/navier/Documents/OpenVDB_Cookbook/build",
+  "command": "/bin/x86_64-linux-gnu-g++-10 -DOPENVDB_ABI_VERSION_NUMBER=8 -isystem /home/navier/Develop/vcpkg/installed/x64-linux/include -g -o CMakeFiles/08_03_Value_transformation.dir/src/08_Transforming_grids/08_03_Value_transformation.cpp.o -c /home/navier/Documents/OpenVDB_Cookbook/src/08_Transforming_grids/08_03_Value_transformation.cpp",
+  "file": "/home/navier/Documents/OpenVDB_Cookbook/src/08_Transforming_grids/08_03_Value_transformation.cpp"
+},
+{
+  "directory": "/home/navier/Documents/OpenVDB_Cookbook/build",
+  "command": "/bin/x86_64-linux-gnu-g++-10 -DOPENVDB_ABI_VERSION_NUMBER=8 -isystem /home/navier/Develop/vcpkg/installed/x64-linux/include -g -o CMakeFiles/08_04_Value_transformation.dir/src/08_Transforming_grids/08_04_Value_transformation.cpp.o -c /home/navier/Documents/OpenVDB_Cookbook/src/08_Transforming_grids/08_04_Value_transformation.cpp",
+  "file": "/home/navier/Documents/OpenVDB_Cookbook/src/08_Transforming_grids/08_04_Value_transformation.cpp"
+},
+{
+  "directory": "/home/navier/Documents/OpenVDB_Cookbook/build",
+  "command": "/bin/x86_64-linux-gnu-g++-10 -DOPENVDB_ABI_VERSION_NUMBER=8 -isystem /home/navier/Develop/vcpkg/installed/x64-linux/include -g -o CMakeFiles/09_03_Generic_combination.dir/src/09_Combining_grids/09_03_Generic_combination.cpp.o -c /home/navier/Documents/OpenVDB_Cookbook/src/09_Combining_grids/09_03_Generic_combination.cpp",
+  "file": "/home/navier/Documents/OpenVDB_Cookbook/src/09_Combining_grids/09_03_Generic_combination.cpp"
+},
+{
+  "directory": "/home/navier/Documents/OpenVDB_Cookbook/build",
+  "command": "/bin/x86_64-linux-gnu-g++-10 -DOPENVDB_ABI_VERSION_NUMBER=8 -isystem /home/navier/Develop/vcpkg/installed/x64-linux/include -g -o CMakeFiles/09_01_Level_set_CSG_operations.dir/src/09_Combining_grids/09_01_Level_set_CSG_operations.cpp.o -c /home/navier/Documents/OpenVDB_Cookbook/src/09_Combining_grids/09_01_Level_set_CSG_operations.cpp",
+  "file": "/home/navier/Documents/OpenVDB_Cookbook/src/09_Combining_grids/09_01_Level_set_CSG_operations.cpp"
+},
+{
+  "directory": "/home/navier/Documents/OpenVDB_Cookbook/build",
+  "command": "/bin/x86_64-linux-gnu-g++-10 -DOPENVDB_ABI_VERSION_NUMBER=8 -isystem /home/navier/Develop/vcpkg/installed/x64-linux/include -g -o CMakeFiles/09_02_Compositing_operations.dir/src/09_Combining_grids/09_02_Compositing_operations.cpp.o -c /home/navier/Documents/OpenVDB_Cookbook/src/09_Combining_grids/09_02_Compositing_operations.cpp",
+  "file": "/home/navier/Documents/OpenVDB_Cookbook/src/09_Combining_grids/09_02_Compositing_operations.cpp"
+},
+{
+  "directory": "/home/navier/Documents/OpenVDB_Cookbook/build",
+  "command": "/bin/x86_64-linux-gnu-g++-10 -DOPENVDB_ABI_VERSION_NUMBER=8 -isystem /home/navier/Develop/vcpkg/installed/x64-linux/include -g -o CMakeFiles/14_05_Point_Filtering_using_Groups.dir/src/14_Point_Iteration_Groups_and_Filtering/14_05_Point_Filtering_using_Groups.cpp.o -c /home/navier/Documents/OpenVDB_Cookbook/src/14_Point_Iteration_Groups_and_Filtering/14_05_Point_Filtering_using_Groups.cpp",
+  "file": "/home/navier/Documents/OpenVDB_Cookbook/src/14_Point_Iteration_Groups_and_Filtering/14_05_Point_Filtering_using_Groups.cpp"
+},
+{
+  "directory": "/home/navier/Documents/OpenVDB_Cookbook/build",
+  "command": "/bin/x86_64-linux-gnu-g++-10 -DOPENVDB_ABI_VERSION_NUMBER=8 -isystem /home/navier/Develop/vcpkg/installed/x64-linux/include -g -o CMakeFiles/14_02_Point_Iteration.dir/src/14_Point_Iteration_Groups_and_Filtering/14_02_Point_Iteration.cpp.o -c /home/navier/Documents/OpenVDB_Cookbook/src/14_Point_Iteration_Groups_and_Filtering/14_02_Point_Iteration.cpp",
+  "file": "/home/navier/Documents/OpenVDB_Cookbook/src/14_Point_Iteration_Groups_and_Filtering/14_02_Point_Iteration.cpp"
+},
+{
+  "directory": "/home/navier/Documents/OpenVDB_Cookbook/build",
+  "command": "/bin/x86_64-linux-gnu-g++-10 -DOPENVDB_ABI_VERSION_NUMBER=8 -isystem /home/navier/Develop/vcpkg/installed/x64-linux/include -g -o CMakeFiles/09_04_Generic_combination.dir/src/09_Combining_grids/09_04_Generic_combination.cpp.o -c /home/navier/Documents/OpenVDB_Cookbook/src/09_Combining_grids/09_04_Generic_combination.cpp",
+  "file": "/home/navier/Documents/OpenVDB_Cookbook/src/09_Combining_grids/09_04_Generic_combination.cpp"
+},
+{
+  "directory": "/home/navier/Documents/OpenVDB_Cookbook/build",
+  "command": "/bin/x86_64-linux-gnu-g++-10 -DOPENVDB_ABI_VERSION_NUMBER=8 -isystem /home/navier/Develop/vcpkg/installed/x64-linux/include -g -o CMakeFiles/11_01_Hello_World_for_OpenVDB_Points.dir/src/11_Hello_World_for_OpenVDB_Points/11_01_Hello_World_for_OpenVDB_Points.cpp.o -c /home/navier/Documents/OpenVDB_Cookbook/src/11_Hello_World_for_OpenVDB_Points/11_01_Hello_World_for_OpenVDB_Points.cpp",
+  "file": "/home/navier/Documents/OpenVDB_Cookbook/src/11_Hello_World_for_OpenVDB_Points/11_01_Hello_World_for_OpenVDB_Points.cpp"
+},
+{
+  "directory": "/home/navier/Documents/OpenVDB_Cookbook/build",
+  "command": "/bin/x86_64-linux-gnu-g++-10 -DOPENVDB_ABI_VERSION_NUMBER=8 -isystem /home/navier/Develop/vcpkg/installed/x64-linux/include -g -o CMakeFiles/05_01_Adding_metadata.dir/src/05_Handling_metadata/05_01_Adding_metadata.cpp.o -c /home/navier/Documents/OpenVDB_Cookbook/src/05_Handling_metadata/05_01_Adding_metadata.cpp",
+  "file": "/home/navier/Documents/OpenVDB_Cookbook/src/05_Handling_metadata/05_01_Adding_metadata.cpp"
+},
+{
+  "directory": "/home/navier/Documents/OpenVDB_Cookbook/build",
+  "command": "/bin/x86_64-linux-gnu-g++-10 -DOPENVDB_ABI_VERSION_NUMBER=8 -isystem /home/navier/Develop/vcpkg/installed/x64-linux/include -g -o CMakeFiles/09_05_Generic_combination.dir/src/09_Combining_grids/09_05_Generic_combination.cpp.o -c /home/navier/Documents/OpenVDB_Cookbook/src/09_Combining_grids/09_05_Generic_combination.cpp",
+  "file": "/home/navier/Documents/OpenVDB_Cookbook/src/09_Combining_grids/09_05_Generic_combination.cpp"
+},
+{
+  "directory": "/home/navier/Documents/OpenVDB_Cookbook/build",
+  "command": "/bin/x86_64-linux-gnu-g++-10 -DOPENVDB_ABI_VERSION_NUMBER=8 -isystem /home/navier/Develop/vcpkg/installed/x64-linux/include -g -o CMakeFiles/09_06_Generic_combination.dir/src/09_Combining_grids/09_06_Generic_combination.cpp.o -c /home/navier/Documents/OpenVDB_Cookbook/src/09_Combining_grids/09_06_Generic_combination.cpp",
+  "file": "/home/navier/Documents/OpenVDB_Cookbook/src/09_Combining_grids/09_06_Generic_combination.cpp"
+},
+{
+  "directory": "/home/navier/Documents/OpenVDB_Cookbook/build",
+  "command": "/bin/x86_64-linux-gnu-g++-10 -DOPENVDB_ABI_VERSION_NUMBER=8 -isystem /home/navier/Develop/vcpkg/installed/x64-linux/include -g -o CMakeFiles/12_01_Converting_Point_Attributes.dir/src/12_Converting_Point_Attributes/12_01_Converting_Point_Attributes.cpp.o -c /home/navier/Documents/OpenVDB_Cookbook/src/12_Converting_Point_Attributes/12_01_Converting_Point_Attributes.cpp",
+  "file": "/home/navier/Documents/OpenVDB_Cookbook/src/12_Converting_Point_Attributes/12_01_Converting_Point_Attributes.cpp"
+},
+{
+  "directory": "/home/navier/Documents/OpenVDB_Cookbook/build",
+  "command": "/bin/x86_64-linux-gnu-g++-10 -DOPENVDB_ABI_VERSION_NUMBER=8 -isystem /home/navier/Develop/vcpkg/installed/x64-linux/include -g -o CMakeFiles/13_01_Random_Point_Generation.dir/src/13_Random_Point_Generation/13_01_Random_Point_Generation.cpp.o -c /home/navier/Documents/OpenVDB_Cookbook/src/13_Random_Point_Generation/13_01_Random_Point_Generation.cpp",
+  "file": "/home/navier/Documents/OpenVDB_Cookbook/src/13_Random_Point_Generation/13_01_Random_Point_Generation.cpp"
+},
+{
+  "directory": "/home/navier/Documents/OpenVDB_Cookbook/build",
+  "command": "/bin/x86_64-linux-gnu-g++-10 -DOPENVDB_ABI_VERSION_NUMBER=8 -isystem /home/navier/Develop/vcpkg/installed/x64-linux/include -g -o CMakeFiles/14_03_Point_Iteration.dir/src/14_Point_Iteration_Groups_and_Filtering/14_03_Point_Iteration.cpp.o -c /home/navier/Documents/OpenVDB_Cookbook/src/14_Point_Iteration_Groups_and_Filtering/14_03_Point_Iteration.cpp",
+  "file": "/home/navier/Documents/OpenVDB_Cookbook/src/14_Point_Iteration_Groups_and_Filtering/14_03_Point_Iteration.cpp"
+},
+{
+  "directory": "/home/navier/Documents/OpenVDB_Cookbook/build",
+  "command": "/bin/x86_64-linux-gnu-g++-10 -DOPENVDB_ABI_VERSION_NUMBER=8 -isystem /home/navier/Develop/vcpkg/installed/x64-linux/include -g -o CMakeFiles/16_02_Moving_Points_with_a_Custom_Deformer.dir/src/16_Moving_Points_in_Space/16_02_Moving_Points_with_a_Custom_Deformer.cpp.o -c /home/navier/Documents/OpenVDB_Cookbook/src/16_Moving_Points_in_Space/16_02_Moving_Points_with_a_Custom_Deformer.cpp",
+  "file": "/home/navier/Documents/OpenVDB_Cookbook/src/16_Moving_Points_in_Space/16_02_Moving_Points_with_a_Custom_Deformer.cpp"
+},
+{
+  "directory": "/home/navier/Documents/OpenVDB_Cookbook/build",
+  "command": "/bin/x86_64-linux-gnu-g++-10 -DOPENVDB_ABI_VERSION_NUMBER=8 -isystem /home/navier/Develop/vcpkg/installed/x64-linux/include -g -o CMakeFiles/15_01_Constant_Stride_Attributes.dir/src/15_Strided_Point_Attributes/15_01_Constant_Stride_Attributes.cpp.o -c /home/navier/Documents/OpenVDB_Cookbook/src/15_Strided_Point_Attributes/15_01_Constant_Stride_Attributes.cpp",
+  "file": "/home/navier/Documents/OpenVDB_Cookbook/src/15_Strided_Point_Attributes/15_01_Constant_Stride_Attributes.cpp"
+}
+]
